@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.game-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.instructions {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    padding: 10px;
+    width: 60px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#reset-btn {
+    background-color: #e74c3c;
+    margin-left: 10px;
+}
+
+#reset-btn:hover {
+    background-color: #c0392b;
+}
+
+#message {
+    min-height: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.guesses {
+    margin-top: 20px;
+    color: #7f8c8d;
+}
+
+#guesses-list {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.correct {
+    color: #27ae60;
+}
+
+.wrong {
+    color: #e74c3c;
+}
